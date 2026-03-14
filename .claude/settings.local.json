@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/usman/Desktop/the grill house\" && start index.html)"
+    ]
+  }
+}
