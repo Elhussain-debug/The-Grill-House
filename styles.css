@@ -336,9 +336,37 @@ a {
     font-size: clamp(1rem, 2vw, 1.25rem);
     color: var(--text-secondary);
     max-width: 600px;
-    margin: 0 auto 48px;
+    margin: 0 auto 24px;
     font-weight: 300;
     letter-spacing: 0.05em;
+}
+
+.hero-description {
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    color: var(--text-muted);
+    max-width: 520px;
+    margin: 0 auto 32px;
+    line-height: 1.7;
+}
+
+.hero-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-highlight {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.highlight-icon {
+    font-size: 1.2rem;
 }
 
 .hero-cta {

@@ -64,7 +64,7 @@ function initScrollAnimations() {
    MOBILE NAVIGATION
    ============================================ */
 function initMobileNav() {
-    const navToggle = document.getElementById('nav-toggle');
+    const navToggle = document.getElementById('navToggle');
     const navLinks = document.getElementById('navLinks');
 
     if (navToggle && navLinks) {
