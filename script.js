@@ -276,7 +276,7 @@ window.addEventListener('load', function() {
 
     // Trigger hero animations
     setTimeout(() => {
-        document.querySelectorAll('.hero-title, .hero-subtitle, .hero-cta, .hero-badge').forEach(el => {
+        document.querySelectorAll('.hero-content > .reveal').forEach(el => {
             el.classList.add('active');
         });
     }, 100);
